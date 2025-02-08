@@ -12,7 +12,7 @@ const YoloPayScreen = () => {
 
 				<PaymentButtons />
 
-				<View style={{}}>
+				<View style={{ paddingTop: 20 }}>
 					<Text style={{ color: "grey", textTransform: "uppercase", fontFamily: "Light" }}>your digital debit card</Text>
 				</View>
 			</View>
