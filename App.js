@@ -28,6 +28,7 @@ export default function App() {
 		Medium: require("./assets/fonts/Poppins-Medium.ttf"),
 		SemiBold: require("./assets/fonts/Poppins-SemiBold.ttf"),
 		Light: require("./assets/fonts/Poppins-Light.ttf"),
+		Wide: require("./assets/fonts/Audiowide-Regular.ttf"),
 	});
 
 	if (!loaded) {
@@ -51,7 +52,7 @@ const styles = StyleSheet.create({
 		flex: 1,
 		justifyContent: "center",
 		alignItems: "center",
-		backgroundColor: "#111",
+		backgroundColor: "#000",
 	},
 	tabBar: {
 		flexDirection: "row",

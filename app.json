@@ -1,31 +1,43 @@
 {
   "expo": {
     "name": "Yolo",
-    "slug": "yolo-task-25",
+    "slug": "yolo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "splash": {
+        "image": "./assets/logo.png",
+        "resizeMode": "native",
+        "backgroundColor": "#000"
+      },
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#000"
+      },
+      "package": "com.yolo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e58d9393-5e27-4821-8d4b-ff567cb048ac"
+      }
+    },
+    "owner": "peasyboy"
   }
 }
